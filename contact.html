@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ym-website</title>
+   
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body class="position-relative">
+    
+
+    <nav class="navbar navbar-expand-lg  position-relative">
+        <div class="container-fluid">
+          <a class="navbar" href="index.html"></a><img class="navbar-img" src="assets/img/nav logo.png" alt="" class="img-fluid"></a>
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link  text-white"  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white"  href="services.html"> Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white"  href="project.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white"  href="contact.html">Contact Us</a>
+              </li>
+          
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+
+      <div class="container d-flex text-center justify-content-center">
+      <div class="col-lg-4">
+          <h3>Location</h3>
+          <h2><span class="text-white">Contact Us</span></h2>
+          <h3>Feel Free To Contact With Us</h3>
+
+          <h3>
+              <span class="text-white">Phone:</span>
+                  +971 501998812
+          </h3>
+        <h3> 
+            <span class="text-white">Email: </span>
+            Info@Yourmoment.Mes
+        </h3>
+          <h3>Tell Us Your Requirements</h3>
+        </div>
+    </div>
+        
+        
+        <div class="container py-5 d-flex justify-content-center">
+        <form action="#" id="contact_form" class="mt-4 " novalidate="novalidate">
+            <div class="show_message"></div>
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <input type="text" name="name" class=" form1 form-control bg-transparent colorplaceholder " placeholder=" Name ">
+
+                    </div>
+                    <div class="col-md-6">
+                        <input type="number" name="phone" class=" form1 form-control bg-transparent " placeholder="Phone ">
+                    </div>
+
+                    <div class="col-md-12">
+                        <select class=" text-white form-select service bg-transparent" name="service" aria-label="Default select example">
+                            <option value="">Select Service</option>
+                            <option value="Event Management">Event Management</option>
+                            <option value="Production">Production</option>
+                            <option value="Rentals">Rentals</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-12">
+                        <select class=" form1 form-select service_sub_type bg-transparent text-white" name="service_sub_type" aria-label="Default select example" required="">
+                            <option value="">Select Event</option>
+                            
+                        </select>
+
+                    </div>
+
+                    <div class="col-md-12">
+                        <input type="number" name="budget" class="form-control bg-transparent form1" placeholder="budget ">
+                       
+
+                    </div>
+
+                    <div class="col-md-12">
+                        <textarea class="form-control bg-transparent form1" name="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="col-12 text-start form1">
+                        <button type="submit" class="btn submit_btn">Submit</button>
+                    </div>
+                </div>
+                <input type="hidden" name="csrf_test_name" value="fa93fe748b7482db3531e7c6ea33a53a">
+            </div>
+
+        </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
